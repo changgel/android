@@ -6,7 +6,14 @@
     tools:context="language.com.android.MainActivity">
 
     <TextView
+        android:id="@+id/tv_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="android test git" />
+
+    <Button
+        android:id="@+id/btn_main"
+        android:layout_width="wrap_content"
+        android:text="点击"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
